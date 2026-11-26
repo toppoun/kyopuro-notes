@@ -1,4 +1,3 @@
-# string
 
 ## 基本
 
@@ -143,4 +142,4 @@ char c = '0' + x;
 
 ## 関連
 - [[STL/sort-search]]
-- [[アルゴリズム/Manacher]]
+- [[Manacher法（回文）]]

@@ -1,6 +1,5 @@
-# vector / array
 
-## vector 基本
+# vector 基本
 
 ```cpp
 vector<int> a = {3, 1, 4};
@@ -65,7 +64,7 @@ a.erase(a.begin() + i);
 a.erase(remove(a.begin(), a.end(), x), a.end());
 ```
 
-## array
+# array
 
 要素数がコンパイル時に固定の配列。
 

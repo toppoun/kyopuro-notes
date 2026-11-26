@@ -1,6 +1,4 @@
-# algorithm / numeric
-
-## accumulate
+# accumulate
 
 合計。
 
@@ -10,7 +8,7 @@ ll total = accumulate(a.begin(), a.end(), 0LL);
 
 `ll` で欲しいなら初期値を `0LL` にする。
 
-## iota
+# iota
 
 連番を作る。
 
@@ -21,14 +19,14 @@ iota(p.begin(), p.end(), 0);
 
 `0, 1, 2, ..., n-1` が入る。
 
-## gcd / lcm
+# gcd / lcm
 
 ```cpp
 int g = gcd(12, 18);
 int l = lcm(12, 18);
 ```
 
-## any_of
+# any_of
 
 1つでも条件を満たすか。
 
@@ -38,7 +36,7 @@ bool ok = any_of(a.begin(), a.end(), [](int x) {
 });
 ```
 
-## all_of
+# all_of
 
 全部条件を満たすか。
 
@@ -48,7 +46,7 @@ bool ok = all_of(a.begin(), a.end(), [](int x) {
 });
 ```
 
-## none_of
+# none_of
 
 1つも条件を満たさないか。
 
@@ -58,7 +56,7 @@ bool ok = none_of(a.begin(), a.end(), [](int x) {
 });
 ```
 
-## next_permutation
+# next_permutation
 
 全順列。
 
@@ -74,7 +72,7 @@ do {
 
 要素数 N に対して N! 通りなので、小さい N だけ。
 
-## 整数累乗
+# 整数累乗
 
 `pow()` は浮動小数点計算なので、整数累乗なら自前で書く方が安全。
 
@@ -98,7 +96,7 @@ while (b > 0) {
 }
 ```
 
-## 1-indexed の循環
+# 1-indexed の循環
 
 `1, 2, ..., m, 1, 2, ...` と循環させる。
 

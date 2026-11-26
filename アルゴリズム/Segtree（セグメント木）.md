@@ -1,11 +1,10 @@
-# Segtree（セグメント木）
 
 **1点更新 + 区間の集約**をそれぞれ `O(log N)` で行う。AtCoder Library（ACL）を使う。
 
 - 区間和 / 区間最大値 / 区間最小値 / 区間 GCD など
 - **全体の値**は `all_prod()` で `O(1)`
 - **集約結果に基づく二分探索**は `max_right` / `min_left`
-- 区間加算・区間代入が必要なら [[アルゴリズム/Lazy Segtree]]
+- 区間加算・区間代入が必要なら [[Lazy Segtree（遅延セグメント木）]]
 
 ## 実戦用：1点加算・区間最大値
 
@@ -118,7 +117,7 @@ for (int j : mp[i]) seg.set(j, seg.get(j) - 1);
 
 ## 関連
 
-- [[アルゴリズム/Fenwick Tree]]：1点加算と区間和に特化
-- [[アルゴリズム/Lazy Segtree]]：区間更新が必要
-- [[アルゴリズム/二分探索]]：判定の単調性
+- [[Fenwick Tree（BIT)]]：1点加算と区間和に特化
+- [[Lazy Segtree（遅延セグメント木）]]：区間更新が必要
+- [[二分探索（答えを探すタイプ）]]：判定の単調性
 - [ACL 公式ドキュメント](https://atcoder.github.io/ac-library/production/document_ja/segtree.html)

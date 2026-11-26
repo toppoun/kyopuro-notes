@@ -1,6 +1,6 @@
-# pair / tuple
 
-## pair
+
+# pair
 
 ```cpp
 pair<int, string> p = {3, "abc"};
@@ -12,7 +12,7 @@ pair<int, string> p = {3, "abc"};
 auto [number, text] = p;
 ```
 
-## `vector<pair>`
+# `vector<pair>`
 
 ```cpp
 vector<pair<int, ll>> edges;
@@ -35,7 +35,7 @@ for (const auto& [to, cost] : edges) {
 sort(edges.begin(), edges.end());
 ```
 
-## tuple
+# tuple
 
 ```cpp
 tuple<int, string, ll> t = {1, "xyz", 100};

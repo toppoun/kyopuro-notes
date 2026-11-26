@@ -1,6 +1,5 @@
-# sort / search
 
-## sort
+# sort
 
 昇順。
 
@@ -14,7 +13,7 @@ sort(a.begin(), a.end());
 sort(a.begin(), a.end(), greater<>());
 ```
 
-## reverse
+# reverse
 
 現在の並びを逆順にする。ソートではない。
 
@@ -29,7 +28,7 @@ sort(a.begin(), a.end(), greater<>());
 sort(a.rbegin(), a.rend());
 ```
 
-## ラムダ式ソート
+# ラムダ式ソート
 
 例: `second` の昇順。
 
@@ -48,13 +47,13 @@ sort(a.begin(), a.end(), [](const auto& x, const auto& y) {
 });
 ```
 
-## count
+# count
 
 ```cpp
 int cnt = (int)count(a.begin(), a.end(), x);
 ```
 
-## STL find
+# STL find
 
 ```cpp
 auto it = find(a.begin(), a.end(), x);
@@ -67,7 +66,7 @@ if (it != a.end()) {
 `string::find()` とは別物。
 
 
-## binary_search
+# binary_search
 
 存在するかだけ欲しいとき。
 
@@ -75,7 +74,7 @@ if (it != a.end()) {
 bool exists = binary_search(a.begin(), a.end(), x);
 ```
 
-## ソート済みvectorへ挿入
+# ソート済みvectorへ挿入
 
 ```cpp
 a.insert(lower_bound(a.begin(), a.end(), x), x);
@@ -83,7 +82,7 @@ a.insert(lower_bound(a.begin(), a.end(), x), x);
 
 挿入位置探索は O(log N) だが、`vector` の挿入自体は O(N)。
 
-## min_element / max_element
+# min_element / max_element
 
 ```cpp
 int mn = *min_element(a.begin(), a.end());
@@ -103,7 +102,7 @@ int mx_i = (int)(max_element(a.begin(), a.end()) - a.begin());
 auto [mn_it, mx_it] = minmax_element(a.begin(), a.end());
 ```
 
-## unique
+# unique
 
 ソートして重複削除。
 

@@ -28,7 +28,7 @@ status: organized
 
 ### 関連する既存ノート
 
-- [Fenwick Tree（1点加算と半開区間の和）](../../アルゴリズム/Fenwick%20Tree.md)
+- [Fenwick Tree（1点加算と半開区間の和）](Fenwick%20Tree（BIT).md)
 
 ## 問題固有の実装ポイント
 

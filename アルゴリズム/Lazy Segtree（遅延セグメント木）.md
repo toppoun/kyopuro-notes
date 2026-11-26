@@ -1,4 +1,3 @@
-# Lazy Segtree（遅延セグメント木）
 
 **区間更新 + 区間の集約**が必要なときに使う。ACL の `lazy_segtree` ならどちらも `O(log N)`。
 
@@ -159,7 +158,7 @@ ll sum = seg.prod(l, r).sum;
 
 ## 関連
 
-- [[アルゴリズム/Segtree]]
-- [[アルゴリズム/Fenwick Tree]]
-- [[典型/imos]]
+- [[Segtree（セグメント木）]]
+- [[Fenwick Tree（BIT)]]
+- [[imos法]]
 - [ACL 公式ドキュメント](https://atcoder.github.io/ac-library/production/document_ja/lazysegtree.html)

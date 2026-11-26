@@ -1,6 +1,5 @@
-# queue / stack / deque / priority_queue
 
-## queue
+# queue
 
 FIFO。
 
@@ -16,7 +15,7 @@ q.pop();
 
 `pop()` は値を返さない。
 
-## stack
+# stack
 
 LIFO。
 
@@ -30,7 +29,7 @@ int x = st.top();
 st.pop();
 ```
 
-## deque
+# deque
 
 両端から追加・削除できる。
 
@@ -51,7 +50,7 @@ int a = dq.front();
 int b = dq.back();
 ```
 
-## priority_queue
+# priority_queue
 
 デフォルトは最大ヒープ。
 
@@ -66,7 +65,7 @@ int mx = pq.top();
 pq.pop();
 ```
 
-## min-heap
+# min-heap
 
 ```cpp
 priority_queue<int, vector<int>, greater<>> pq;

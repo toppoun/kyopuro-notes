@@ -1,6 +1,5 @@
-# set / map
 
-## set
+# set
 
 常にソートされた重複なし集合。
 
@@ -40,7 +39,7 @@ if (it != st.end()) {
 
 `set` 自身の `lower_bound()` を使う。
 
-## map
+# map
 
 キー順に管理される連想配列。
 
@@ -78,7 +77,7 @@ for (const auto& [key, value] : mp) {
 }
 ```
 
-## unordered_map
+# unordered_map
 
 平均 O(1)。順序は保証されない。
 

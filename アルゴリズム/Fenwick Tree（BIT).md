@@ -1,4 +1,3 @@
-# Fenwick Tree（BIT）
 
 **1点加算 + 区間和**に特化した軽量なデータ構造。Binary Indexed Tree（BIT）とも呼ぶ。
 
@@ -57,17 +56,17 @@ if (r < n) diff.add(r, -x);
 ll value = diff.sum(0, p + 1);
 ```
 
-区間加算 `O(log N)`、1点取得 `O(log N)`。最終配列だけ欲しいなら [[典型/imos]] のほうが簡単で高速。
+区間加算 `O(log N)`、1点取得 `O(log N)`。最終配列だけ欲しいなら [[imos法]] のほうが簡単で高速。
 
 ## 向いていないもの
 
-- 区間最大値 / 区間最小値 → [[アルゴリズム/Segtree]]
-- 区間加算 + 区間最大値・区間和 → [[アルゴリズム/Lazy Segtree]]
+- 区間最大値 / 区間最小値 → [[Segtree（セグメント木）]]
+- 区間加算 + 区間最大値・区間和 → [[Lazy Segtree（遅延セグメント木）]]
 
 ## 関連
 
-- [[アルゴリズム/Segtree]]
-- [[アルゴリズム/Lazy Segtree]]
+- [[Segtree（セグメント木）]]
+- [[Lazy Segtree（遅延セグメント木）]]
 - [[典型/累積和]]
-- [[典型/imos]]
+- [[imos法]]
 - [ACL 公式ドキュメント](https://atcoder.github.io/ac-library/production/document_ja/fenwicktree.html)

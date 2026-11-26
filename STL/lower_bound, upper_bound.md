@@ -1,4 +1,3 @@
-# lower_bound / upper_bound
 
 ソート済み配列から、条件を満たす要素の境界を二分探索で求める。計算量は `O(log N)`。
 
@@ -110,7 +109,7 @@ int right = upper_bound(a.begin(), a.end(), x, greater<>()) - a.begin();
 ## 関連
 
 - [[STL/sort-search]]
-- [[アルゴリズム/二分探索]]
+- [[二分探索（答えを探すタイプ）]]
 - [[STL/set-map]]
 - [[STL/multiset]]
 - [[典型/座標圧縮]]
